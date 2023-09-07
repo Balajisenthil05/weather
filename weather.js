@@ -6,7 +6,7 @@ windSpeed = document.querySelector("#windSpeed")
 humidity = document.querySelector(".humidity")
 weather = document.querySelector(".weather")
 desc = document.querySelector(".desc")
-API = "8cf5ac5621c8d0266298a149e49d7514";
+API = "82005d27a116c2880c8f0fcb866998a0";
 const setWeatherDetails = (data) => {
     desc.innerHTML = data.weather[0].description;
     weather.innerHTML = Math.round(data.main.temp - 273.15) + "°c";
